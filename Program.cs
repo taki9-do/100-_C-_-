@@ -1,16 +1,14 @@
 ﻿using System;
 
-namespace _210427_2
+namespace _210428_3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a, b;
-            a = int.Parse(System.Console.ReadLine());
-            b = int.Parse(System.Console.ReadLine());
-
-            Console.WriteLine(a+b+"\n");
+            //Console.WriteLine("Hello World!");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("入力値：" + a);
         }
     }
 }
