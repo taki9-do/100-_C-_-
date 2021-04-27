@@ -1,17 +1,20 @@
 ﻿using System;
 
-namespace _210428_6
+namespace _210428_5
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int i=int.Parse(Console.ReadLine());
-            if (i == 0)
-            {
-                Console.WriteLine("Zero");
-            }
-            
+            //Console.WriteLine("Hello World!");
+            int input1 = int.Parse(Console.ReadLine());
+            int input2= int.Parse(Console.ReadLine());
+
+            Console.WriteLine("sum：" + (input1 + input2));
+            Console.WriteLine("sub：" + (input1 - input2));
+            Console.WriteLine("mult：" + (input1 * input2));
+            Console.WriteLine("deveide：" + (input1 / input2) +"\b\b\t"+ "mod：" + (input1 % input2));
+
         }
     }
 }
