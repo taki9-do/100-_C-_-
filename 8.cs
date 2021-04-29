@@ -9,6 +9,7 @@ namespace _210429_8
             int a = int.Parse(Console.ReadLine());
             if (a > 0)
             {
+                
                 Console.WriteLine("Positive");
             }
             else if (a == 0)
