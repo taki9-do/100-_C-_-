@@ -44,8 +44,6 @@ namespace _210511_54
             Console.WriteLine("最大値：" + box_large.Max());
 
 
-
-
         }
     }
 }
