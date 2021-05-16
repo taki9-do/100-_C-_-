@@ -15,6 +15,7 @@
         <Button x:Name="btn_decide" Content="座標決定" Margin="60,15,0,0"   Click="btn_decide_Click" Height="20" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         
 
+            
 
     </Grid>
 </Window>
