@@ -9,6 +9,5 @@
     <Grid>
         <Canvas x:Name="canvas" Width="600" Height="400" Background="White"  />
 
-
     </Grid>
 </Window>
